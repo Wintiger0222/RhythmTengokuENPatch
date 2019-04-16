@@ -18,8 +18,8 @@ nop
 .endif
 
 .if _debugmenu==1
-.org 0x0801CFC0
-.dw 0x089ddbcc
+.org 0x08000454
+.dw 0x089DDBCC
 .endif
 
 .endif
